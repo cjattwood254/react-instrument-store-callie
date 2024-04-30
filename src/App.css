@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+  color: black;
+}
+
+button {
+  background-color: antiquewhite;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+}
