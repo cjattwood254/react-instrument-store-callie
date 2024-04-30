@@ -1,6 +1,6 @@
 import React from "react";
 
-const InstrumentItem = ({item, addToCart, removeFromCart, toggleFavorite}) => {
+const InstrumentItem = ({item, addToCart, removeFromCart, toggleFavorite, handleClick1, handleClick2}) => {
     return(
         <>
             <h3>{item.title}</h3>

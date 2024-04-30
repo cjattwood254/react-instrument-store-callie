@@ -5,7 +5,7 @@ const InstrumentList = ({instrumentItems, addToCart, removeFromCart, toggleFavor
     return (
         <>
             {instrumentItems.map(item => (
-                <InstrumentItem key={item.id} item={item} addToCart={addToCart} removeFromCart={removeFromCart} toggleFavorite={toggleFavorite} />
+                <InstrumentItem key={item.id} item={item} addToCart={addToCart} removeFromCart={removeFromCart} toggleFavorite={toggleFavorite} handleClick1={handleClick1} handleClick2={handleClick2} />
             ))}
         </>
     )
